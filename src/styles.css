@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);*/
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-theme {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.main-header {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.Map {
+    min-height: 90vh;
+}
+
+.legend {
+    line-height: 18px;
+    color: white;
+    background-color: #282c34;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-align: start;
+  }
+  .legend-block {
+    padding: 2px 0px 2px 17px;
+    margin: 0 6px 0 0;
+  }
+
+.custom-info {
+    background-color: #282c34;
+    color: white;
+    opacity: 1;
+    padding: 7px;
+    border-radius: 8px;
+}
+  .info-header {
+      margin: 12px 0px;
+  }
+  .info-table {
+      border: 1px;
+  }
+  .table {
+      margin: 0;
+  }
+  tbody th{
+      text-align: start;
+  }
+  #table-head {
+      font-size: x-large;
+  }
+  /*thead th {
+      font-size: x-large;
+  }*/
+  .table-dark {
+      --bs-table-bg: #282c34;
+  }
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+    background: #282c34;
+    text-align: center;
+}
+
+/* Loader style */
+#covid-loader {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .main-header {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
