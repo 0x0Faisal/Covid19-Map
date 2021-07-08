@@ -24,9 +24,9 @@ const Map = ({ data }) => {
         // layer.bindTooltip("string", {sticky: true});
 
         layer.on({
-           mouseover: highlightSpot,
-           mouseout: resetHighlight,
-          click: ZoomToRegion,
+            mouseover: highlightSpot,
+            mouseout: resetHighlight,
+            click: ZoomToRegion,
         });
     };
     function highlightSpot(e) {
@@ -34,8 +34,7 @@ const Map = ({ data }) => {
 
         layer.setStyle({
             weight: 5,
-            color: '#aad3df',
-            //color: '#666',
+            color: 'black',
             dashArray: '',
             fillOpacity: 0.9,
         });
@@ -218,12 +217,3 @@ const p = (d, total) => {
 
 export default Map;
 
-
-
-const _infoText = (props) => {
-    return (
-        '<h4 class="info-header">Covid-19 total cases</h4>' +  (props ?
-                '<b>' + props.name + '</b><br />' + props.cases
-                : 'Hover over a region')
-    );
-}
